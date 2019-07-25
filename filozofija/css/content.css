@@ -1,0 +1,86 @@
+#main-nav {
+  padding: 0;
+  background-color: #f0f1e9;
+}
+
+#logo-link {
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.demo {
+  overflow: hidden;
+  text-align: left;
+
+}
+
+.lesson {
+
+  margin: 1rem;
+}
+
+.color-main {
+  color: #d4a249;
+  font-weight: bold;
+}
+
+iframe {
+  display: none;
+  margin: auto;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  font-family: 'Fanwood Text', serif;
+  font-size: 1.2rem;
+}
+
+.lesson-title {
+  /* text-decoration: underline; */
+  cursor: pointer;
+  text-align: left;
+  font-size: 1.5rem;
+  overflow: hidden;
+
+
+}
+
+.l-heading {
+  color: #d4a249;
+  font-size: 1.5rem;
+}
+
+/* .p-info {
+  padding-left: 50px;
+  padding-right: 70px;
+} */
+
+
+@media only screen and (max-width: 540px) {
+  .info {
+    display: block;
+
+  }
+
+  .info h3 {
+    font-size: 1.3rem;
+  }
+
+  #contact-info {
+    margin-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+
+  #contact-info {
+    margin-bottom: 95px;
+
+  }
+
+
+}
